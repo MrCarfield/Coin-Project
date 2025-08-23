@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32522b03-ae23-47a1-8ab6-04dc8b68730d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CoinProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financial_data_analyzer_alpha_vantage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi_stock_analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_with_api_key.py" afterDir="false" />
-    </list>
+    <list default="true" id="32522b03-ae23-47a1-8ab6-04dc8b68730d" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755918529742</updated>
       <workItem from="1755918530801" duration="1161000" />
-      <workItem from="1755925788592" duration="9282000" />
+      <workItem from="1755925788592" duration="9601000" />
     </task>
     <servers />
   </component>

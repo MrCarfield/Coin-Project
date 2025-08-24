@@ -6,7 +6,7 @@ from datetime import datetime
 from financial_data_analyzer_alpha_vantage import AlphaVantageFinancialDataAnalyzer
 
 # 设置API密钥
-api_key = 'AYIVXRHGGOO2RXH6'
+api_key = 'YFAVSDMWW00CH8FZ'
 analyzer = AlphaVantageFinancialDataAnalyzer(api_key=api_key)
 
 def get_stock_data():

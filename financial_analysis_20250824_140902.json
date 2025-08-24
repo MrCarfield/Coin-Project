@@ -1,0 +1,12 @@
+[
+  {
+    "currency": "AAPL",
+    "quantity": 100.0,
+    "buyPrice": 125.0,
+    "proportion": 1.0,
+    "benefit": 10276.0,
+    "dailyVolatility": 0.0162,
+    "valueAtRisk": "$1,686",
+    "beta": 1.1
+  }
+]

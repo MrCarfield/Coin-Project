@@ -1,0 +1,46 @@
+{
+  "event_analysis": {
+    "event_type": "地缘政治",
+    "factor_directions": {
+      "OIL": "positive",
+      "RISK": "negative",
+      "USD_SAFE": "positive"
+    },
+    "severity": 0.825
+  },
+  "portfolio_impact": {
+    "predicted_alpha_t": 0.4125,
+    "most_affected_pair": {
+      "currency": "AAPL",
+      "impact_score": 0,
+      "impact_direction": "neutral"
+    },
+    "affected_pairs": [
+      {
+        "currency": "AAPL",
+        "impact_score": 0,
+        "impact_direction": "neutral"
+      }
+    ]
+  },
+  "hedging_recommendations": [
+    {
+      "action": "增加避险资产仓位",
+      "instrument": "USD/JPY 或 Gold",
+      "hedging_ratio": 66.0,
+      "reason": "事件导致风险规避情绪上升"
+    },
+    {
+      "action": "增加美元多头仓位",
+      "instrument": "EUR/USD 空头 或 USD/CHF 多头",
+      "hedging_ratio": 49.5,
+      "reason": "事件导致美元作为安全资产需求增加"
+    },
+    {
+      "action": "增加能源板块仓位",
+      "instrument": "WTI Crude Oil 或 Energy Stocks",
+      "hedging_ratio": 41.2,
+      "reason": "事件可能导致石油供应紧张，价格上涨"
+    }
+  ]
+}

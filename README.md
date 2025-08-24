@@ -1,4 +1,14 @@
-# 金融数据分析工具
+# 金融数据分析工具### stress_scenario_analyzer.py### run_stress_analysis.py
+
+这是压力情景分析的运行脚本，用于读取多股票分析结果并进行压力测试。
+
+这是一个压力情景分析模块，可以分析金融事件对投资组合的影响。
+
+主要功能包括：
+- 调用大语言模型分析事件类型和严重程度
+- 评估事件对投资组合的影响
+- 提供对冲建议
+
 
 ## 项目概述
 
@@ -23,21 +33,21 @@ pip install -r requirements.txt
 
 ## 使用方法
 
-### 1. 预配置API密钥运行
-
-```bash
-python run_with_api_key.py
-```
-
-程序会提示您输入金融工具代码、持仓量和买入价格，然后自动获取数据并计算各项指标。
-
-### 2. 多股票分析
+### 1. 多股票分析
 
 ```bash
 python multi_stock_analyzer.py
 ```
 
 可以分析多个股票，程序会计算每个股票的指标并汇总所有股票的持仓占比。
+
+### 2. 压力情景分析
+
+```bash
+python run_stress_analysis.py
+```
+
+可以对金融事件对投资组合的影响进行分析，提供风险评估和对冲建议。
 
 ## 代码结构
 
@@ -53,11 +63,6 @@ python multi_stock_analyzer.py
 - `calculate_value_at_risk(data, confidence_level)`: 计算在险价值
 - `calculate_beta(data, market_symbol)`: 计算贝塔系数
 
-### run_with_api_key.py
-
-这是一个使用预配置API密钥的示例程序，演示如何使用AlphaVantageFinancialDataAnalyzer类。
-
-程序会自动从环境变量`ALPHA_VANTAGE_API_KEY`中读取API密钥，如果没有设置则使用demo密钥。
 
 ### multi_stock_analyzer.py
 

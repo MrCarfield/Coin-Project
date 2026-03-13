@@ -1,0 +1,45 @@
+{
+  "event_analysis": {
+    "event_type": "经济数据",
+    "factor_directions": {
+      "OIL": "positive",
+      "RISK": "positive",
+      "USD_SAFE": "positive"
+    },
+    "severity": 0.8
+  },
+  "portfolio_impact": {
+    "predicted_alpha_t": 0.4,
+    "most_affected_pair": {
+      "currency": "AAPL",
+      "impact_score": 0,
+      "impact_direction": "neutral"
+    },
+    "affected_pairs": [
+      {
+        "currency": "AAPL",
+        "impact_score": 0,
+        "impact_direction": "neutral"
+      },
+      {
+        "currency": "MSFT",
+        "impact_score": 0,
+        "impact_direction": "neutral"
+      }
+    ]
+  },
+  "hedging_recommendations": [
+    {
+      "action": "增加美元多头仓位",
+      "instrument": "EUR/USD 空头 或 USD/CHF 多头",
+      "hedging_ratio": 48.0,
+      "reason": "事件导致美元作为安全资产需求增加"
+    },
+    {
+      "action": "增加能源板块仓位",
+      "instrument": "WTI Crude Oil 或 Energy Stocks",
+      "hedging_ratio": 40.0,
+      "reason": "事件可能导致石油供应紧张，价格上涨"
+    }
+  ]
+}

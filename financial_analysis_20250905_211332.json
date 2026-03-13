@@ -1,0 +1,22 @@
+[
+  {
+    "currency": "AAPL",
+    "quantity": 1000.0,
+    "buyPrice": 231.0,
+    "proportion": 0.191,
+    "benefit": 8780.0,
+    "dailyVolatility": 0.0177,
+    "valueAtRisk": "$1,697",
+    "beta": 1.15
+  },
+  {
+    "currency": "MSFT",
+    "quantity": 2000.0,
+    "buyPrice": 510.0,
+    "proportion": 0.809,
+    "benefit": -4060.0,
+    "dailyVolatility": 0.0116,
+    "valueAtRisk": "$1,420",
+    "beta": 0.78
+  }
+]

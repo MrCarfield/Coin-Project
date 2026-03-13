@@ -8,7 +8,7 @@
 
 ### 1. 多金融工具数据分析
 - 支持股票、加密货币、指数、外汇等多种金融工具
-- 使用Alpha Vantage API获取高质量金融数据
+- 使用Alpha Vantage API获取实时高质量金融数据
 - 自动计算关键金融指标：
   - 持仓占比
   - 盈亏
@@ -16,18 +16,18 @@
   - 在险价值(Value at Risk)
   - 贝塔系数
 
-### 2. 压力情景分析
+### 2. 压力情景分
 - 基于大语言模型分析金融事件类型和影响因子
 - 评估事件对投资组合的影响
 - 提供个性化对冲建议
-- 集成多模型分析结果，提高准确性
+- 集成多模型(douabo-thinking,deepseek-v3)分析结果，提高准确性
 
 ## 代码结构
 
 ### financial_data_analyzer_alpha_vantage.py
 核心分析器类文件，包含以下主要方法：
-- `get_past_three_months_data(symbol, max_retries)`: 获取过去三个月的交易数据，支持重试机制
-- `export_to_excel(data, symbol, filename)`: 将数据导出到Excel文件
+- `get_past_three_months_data(symbol, max_retries)`: 获取过去三个月的交易数据，支持重试机制,
+- `export_to_excel(data, symbol, filename)`: 将数据导出到Excel文件,最后以表格的形式输出获取到的三个月的交易记录
 - `calculate_position_ratio(data, position_size, total_assets)`: 计算持仓占比
 - `calculate_pnl(data, position_size, buy_price)`: 计算盈亏
 - `calculate_daily_volatility(data)`: 计算日波动率（使用最近30个交易日的数据）
@@ -35,7 +35,7 @@
 - `calculate_beta(data, market_symbol)`: 计算贝塔系数
 
 ### multi_stock_analyzer.py
-多股票分析工具，可以分析多个股票并计算它们在投资组合中的占比。程序会提示用户输入多个股票的信息，并确保所有股票的持仓占比总和为100%。
+多股票分析工具，可以分析多个股票并计算它们在投资组合中的占比。程序会提示用户输入多个股票基本的信息,无需用户自己计算在险价值,盈亏等.
 
 ### stress_scenario_analyzer.py
 压力情景分析模块，可以分析金融事件对投资组合的影响。主要功能包括：
@@ -125,7 +125,7 @@ Alpha Vantage免费版API限制：
 
 ## 支持的金融工具代码
 
-- 股票：MSFT (微软), AAPL (苹果), GOOGL (谷歌) 等
+- 股票：MSFT (微软), AAPL (苹果), GOOGL (谷歌) 等大多数的股票
 - ETF：SPY (标普500ETF) 等
 
 ## 错误处理
